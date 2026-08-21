@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Aula 2</title>
+</head>
+<body>
+    <hr>
+
+    <h1>Exercício da Aula 2</h1>
+    <h2>Inscrição para vaga de emprego</h2>
+
+   <form action="segunda.html" method="post">
+   
+    <br>
+   
+    <label for="idnome">
+        Digite seu nome:
+        <input type="text" name="nome" id="idnome" required>
+    </label>
+    <br>
+    <label for="idsenha">
+        Digite sua senha:
+        <input type="password" name="senha" id="idsenha" required>
+    </label>
+   <br>
+     <label for="idemail">
+        Digite seu Email:
+        <input type="text" name="email" id="idemail" required>
+    </label>
+    
+    <br>
+     <br>
+
+     <fieldset>
+        <legend>Selecione seu genero:</legend>
+        <input type="radio" name="genero" id="idmasc"> Masculino <br>
+        <input type="radio" name="genero" id="idfem"> Feminino <br>
+        <input type="radio" name="genero" id="idoutro"> Prefiro não informar <br>
+     </fieldset>
+     
+     <br><br>
+    
+     <fieldset>
+        <legend> Onde voc ê encontrou o anúncio?  </legend>
+        <input type="checkbox" name="prefrers" id=""> Instagram <br>
+         <input type="checkbox" name="prefrers" id=""> TikTok <br>
+          <input type="checkbox" name="prefrers" id=""> Facebook <br>
+          <input type="checkbox" name="prefrers" id=""> Outro <br>
+            </fieldset>
+
+            <h2>Selecione a vaga aplicada</h2>
+            
+            <select name="Vaga" id="idvaga">
+            <option value="anls">Analista</option>
+            <option value="opr">Operador</option>
+            <option value="tec">Técnico</option>
+            <option value="acs">Acessor</option>
+            <option value="dev">Desenvolvidor</option>
+            </select>
+
+            <br><br>
+
+            <h2>Escreva sobre você e o motivo da inscrição</h2>
+            <textarea name="coment" id="idcomen" cols="45" rows="10"> 
+
+            </textarea>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+   </form>
+
+</body>
+</html>
